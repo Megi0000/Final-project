@@ -1,5 +1,5 @@
 header{
-    background-color:#435334ce ;
+    background-color:#435334 ;
     min-height: 80px;
     padding-top: 20px;
 }
@@ -89,8 +89,65 @@ button {
   .sectioninfo h3{
     margin-top: 50px;
     font-size: 25px;
-    color:#FAF1E4;
+    color:#acbe96;
+    line-height: 30px;
   }
   .fa-solid{
-    font-size: 30px;
+    font-size: 40px ;
   }
+  .headericon{
+    width: 100%;
+    margin: 10% 0 0 68%;
+  }
+
+#section1{
+  background-color:#FAF1E4;
+}
+.header{
+  font-size: 40px;
+  color: #435334;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+.section1parent{
+  width: 100%;
+  display: flex;
+}
+.section1info{
+  width: 50%;
+  padding: 30px 30px 30px 60px;
+}
+.section1img {
+  width: 50%;
+}
+.section1img img{
+  width: 100%;
+  padding: 30px 60px 30px 60px;
+  border-radius: 150px 50px 150px 50px;
+}
+.section1info h3{
+  font-size: 30px;
+  color: #435334;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section1info p{
+  font-size: 18px;
+  color: #435334;
+  text-align: center;
+  line-height: 25px;
+}
+
+
+
+section{
+  background-color: #FAF1E4;
+}
+section h2{
+  font-size: 40px;
+  color: #435334;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
