@@ -139,8 +139,6 @@ button {
   line-height: 25px;
 }
 
-
-
 section{
   background-color: #FAF1E4;
   padding-top: 150px;
@@ -165,6 +163,7 @@ section h2{
   width:292px;
   border: 1px solid #435334;
   text-align: left;
+  margin-bottom: 50px;
 }
 .card img{
   width: 290px;
@@ -206,3 +205,11 @@ section h2{
   padding: 13px;
   color:#435334;
 }
+.card:hover{
+    box-shadow: 5px 5px 5px 5px #88888849;
+}
+
+
+
+
+
