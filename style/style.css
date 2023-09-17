@@ -108,7 +108,7 @@ button {
   color: #435334;
   width: 100%;
   text-align: center;
-  padding: 50px 0 50px 0;
+  padding-bottom: 50px;
 }
 .section1parent{
   width: 100%;
@@ -143,11 +143,66 @@ button {
 
 section{
   background-color: #FAF1E4;
+  padding-top: 150px;
+}
+section h2{
+  font-size:90px;
+  color: #435334;
+  text-align: center;
 }
 section h2{
   font-size: 40px;
   color: #435334;
   width: 100%;
   text-align: center;
-  padding: 50px 0 50px 0;
+  padding: 30px 0 30px 0;
+}
+.cardparent{
+  width: 100%;
+  margin-top: 50px;
+}
+.card{
+  width:292px;
+  border: 1px solid #435334;
+  text-align: left;
+}
+.card img{
+  width: 290px;
+}
+.cardchild1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.card h2{
+  font-size:27px;
+  color:#435334;
+  text-align: center;
+}
+.card h4{
+  color:#435334;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.card p{
+  color:#252e1d;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+.icons{
+  display: flex;
+  gap: 16px;
+  padding-left: 17px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+.icon{
+  border-radius: 50px;
+  background-color:#acbe96;
+  padding: 13px;
+  color:#435334;
 }
