@@ -52,22 +52,8 @@
         </div>
     </head>
     <main>
-        <section>
-           
-
-
-
-
-               
-        </section>
-    </main>
-    <section>
-
-
-
-
-        <h3>Contact Form</h3>
-
+    <section id="contact">
+        <h2>Contact Form</h2>
 <div class="container">
   <form action="/action_page.php">
     <label for="fname">Ful Name</label>
@@ -76,11 +62,13 @@
     <label for="lname">Email</label>
     <input type="text" id="lname" name="lastname" placeholder="Your Email..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+    <label for="Destination">Destination</label>
+    <select id="destination" name="Destination">
+      <option value="Tbilisi">Tbilisi</option>
+      <option value="North">North Georgia</option>
+      <option value="West">West Georgia</option>
+      <option value="East">East Georgia</option>
+      <option value="South">South Georgia</option>
     </select>
 
     <label for="subject">Subject</label>
@@ -89,7 +77,48 @@
     <input type="submit" value="Submit">
   </form>
 </div>
-
     </section>
+    <section>
+        <h2>Our location</h2>
+        <div class="map">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.994472173992!2d44.800668975706195!3d41.82841716852379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446eb6a17cd743%3A0xfcfa7e7166b26f36!2z4YOV4YOQ4YOf4YOQLeGDpOGDqOGDkOGDleGDlOGDmuGDkOGDoSDhg6Xhg6Phg6nhg5AsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1695050406177!5m2!1ska!2sge" width="90%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footerparent">
+          <div class="row">
+            <div class="column1">
+                <img src="./image/main-logo.png" alt="logo">
+            </div>
+            <div class="column2">
+              <h3>Menu</h3>
+              <div class="mnuparent">
+                <div class="futermenu ">
+                    <a class="menu" href="index.html">Home page</a>
+                </div>
+                <div class="futermenu">
+                    <a class="menu" href="destination.html">Our Destinations</a>
+                </div>
+                <div class="futermenu">
+                    <a class="menu" href="contact.html">Contact</a>
+                </div>
+            </div>
+            </div>
+            <div class="column3">
+              <h3>More details</h3>
+              <ul>
+                <li><i class="fa-solid fa-location-dot"></i>Location: Tbilisi</li>
+                <li><i class="fa-solid fa-phone"></i>Phone number: <br> +995 555 55 55 55</li>
+                <li><i class="fa-solid fa-envelope"></i>Email: Toursingeorgia@gmail.com</li>
+                <li><i class="fa-solid fa-clock"></i>Working hours: Monday-Friday 9:00-18:00</li>
+              </ul>
+            </div>
+            <div class="column4">
+                    <a href="#contact"> <button> Contact</button></a>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
